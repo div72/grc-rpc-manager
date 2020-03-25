@@ -5,8 +5,8 @@ By default(and not customizable for now), grc-rpc-manager looks for a file calle
 ### Wallet
 * username -> str: The username for RPC (rpcuser)
 * password -> str: The password for RPC (rpcpassword)
-* url -> str: The URL for RPC (http://<ip>:<rpcport>)
+* url -> str: The URL for RPC (http://{ip}:{rpcport})
 ### User:<username>
 * password -> str: The hashed password
 * password_hash -> str: The algorithm used to hash the password. Must be defined by python's hashlib
-* allowed_commands -> str: ; separated list of allowed methods
+* allowed_commands -> str: Semi-colon(;) separated list of allowed methods
